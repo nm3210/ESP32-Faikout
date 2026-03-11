@@ -16,7 +16,7 @@ These files are for use with [KiCAD](https://www.kicad.org).
 
 |Design|Bottom|Top|Combined|
 |------|------|---|--------|
-|Faikout|<a href='FaikoutB.stl'><img src='FaikoutB.png' size=15%></a>|<a href='FaikoutT.stl'><img src='FaikoutT.png' size=15%></a>|<a href='FaikoutC.stl'><img src='FaikoutC.png' size=15%></a>|
+|Faikout|[![FaikoutB](FaikoutB.png)](FaikoutB.stl)|[![FaikoutT](FaikoutT.png)](FaikoutT.stl)|[![FaikoutC](FaikoutC.png)](FaikoutC.stl)|
 
 ## PCB Images
 
@@ -26,4 +26,4 @@ These files are for use with [KiCAD](https://www.kicad.org).
 
 ---
 
-*Auto generated README.md 2026-01-14T13:33:35*
+*Auto generated README.md 2026-03-11T13:42:49*
