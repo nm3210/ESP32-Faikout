@@ -4764,6 +4764,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Max 17V"
+		(exclude_from_sim no)
+		(at 29.21 165.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04f05aa9-667b-4509-8256-19455e5852c4")
+	)
 	(text "Careful routing of Rx line\nto avoid the regulator"
 		(exclude_from_sim no)
 		(at 180.848 110.998 0)
@@ -4774,6 +4784,16 @@
 			(justify left bottom)
 		)
 		(uuid "0db9e5d6-5753-4580-83f6-ab3dc93507f2")
+	)
+	(text "Max 17V"
+		(exclude_from_sim no)
+		(at 186.69 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "802a7667-a77a-4d9b-bf30-c033e55e25a4")
 	)
 	(text "2/6 are loop back test\nvia TC2030m cable."
 		(exclude_from_sim no)
