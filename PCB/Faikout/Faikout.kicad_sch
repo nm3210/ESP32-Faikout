@@ -1198,6 +1198,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Faikin:Conn_01x06_Programming"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Programming"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
+				(at -0.254 -9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PinHeader_2.54mm"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector programming header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Programming_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 8.89 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Programming_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3509,395 +3718,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RevK:TC2030-USB-NL-LB"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TC2030-USB-NL-LB"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "RevK:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-				(at -0.254 -9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "TC2030-USB-NL"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector USB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TC2030-USB-NL-LB_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 -3.175)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 4.445)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 3.175)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.175 1.905)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -1.905 -1.905) (xy -2.54 -0.635) (xy -3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy -2.54 -4.445) (xy -1.27 -3.81) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -5.715) (xy -2.54 -5.08) (xy -3.81 -3.81) (xy -3.81 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -6.35)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.905 4.445)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.905 3.175)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.905 1.905)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.651 -2.286)
-					(end -0.889 -3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "TC2030-USB-NL-LB_1_1"
-				(circle
-					(center -3.81 0.635)
-					(radius 0.381)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 5.715)
-					(radius 0.381)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -4.445) (xy -2.54 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0.635)
-					(radius 0.381)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RevK:TPS562246"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4808,7 +4628,7 @@
 	)
 	(text "A cap Tx to GND seems obvious\nBut experiments show it\nmakes it way more noisy!"
 		(exclude_from_sim no)
-		(at 180.975 80.645 0)
+		(at 179.959 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5279,7 +5099,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 98.425) (xy 212.725 98.425)
+			(xy 196.215 98.425) (xy 214.249 98.425)
 		)
 		(stroke
 			(width 0)
@@ -5409,6 +5229,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.439 88.265) (xy 214.249 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d24c98-b383-4947-9c2b-3a7ffd9157f2")
+	)
+	(wire
+		(pts
 			(xy 90.17 177.8) (xy 90.17 179.07)
 		)
 		(stroke
@@ -5526,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "829c14a8-2a19-4bd8-986f-d5900023622c")
+	)
+	(wire
+		(pts
+			(xy 209.169 93.345) (xy 214.249 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dd5a52-9149-451a-a8a2-91148f86b22d")
 	)
 	(wire
 		(pts
@@ -5649,6 +5489,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.169 85.725) (xy 214.249 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad16c160-a955-414f-9e99-fea83f7ba3cc")
+	)
+	(wire
+		(pts
 			(xy 80.01 184.15) (xy 80.01 179.07)
 		)
 		(stroke
@@ -5659,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 95.885) (xy 212.725 95.885)
+			(xy 196.215 95.885) (xy 214.249 95.885)
 		)
 		(stroke
 			(width 0)
@@ -5816,6 +5666,16 @@
 			(type default)
 		)
 		(uuid "db85d779-c30a-4a3e-821e-8520f95504a9")
+	)
+	(wire
+		(pts
+			(xy 210.439 90.805) (xy 214.249 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1dc06b-fb23-40be-990f-a76b1e6912a5")
 	)
 	(wire
 		(pts
@@ -6021,17 +5881,17 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 227.965 95.885 0)
+		(at 210.439 88.265 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "185f51d3-28a1-4ef9-8787-b5ff66a470c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0909 95.885 0)
+			(at 204.3131 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +5899,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6093,17 +5953,17 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 227.965 98.425 0)
+		(at 210.439 90.805 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "36309e23-de37-4874-a3ec-76ee21d25618")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.0909 98.425 0)
+			(at 204.3131 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +5971,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6261,17 +6121,17 @@
 	)
 	(global_label "DC"
 		(shape output)
-		(at 227.965 92.075 0)
+		(at 209.169 85.725 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7c584420-f2b0-4a97-b066-4e5a5d1339ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.836 92.075 0)
+			(at 204.298 85.725 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6139,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -8658,98 +8518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RevK:TC2030-USB-NL-LB")
-		(at 220.345 97.155 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fd5fa15-0efd-4c7f-b504-7c16d68beed1")
-		(property "Reference" "J2"
-			(at 220.345 85.3905 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TC2030-USB-NL"
-			(at 220.345 87.8148 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RevK:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 220.091 106.299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.155 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "TC2030-USB-NL"
-			(at 220.345 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "4eb35731-c8a0-443f-bbf0-46c057e7da43")
-		)
-		(pin "6"
-			(uuid "92f3abf9-c91c-477a-a113-90105c4d39a1")
-		)
-		(pin "1"
-			(uuid "77e726f8-fe9e-49f3-9056-46faf96091ed")
-		)
-		(pin "4"
-			(uuid "ccbc5d8d-a134-4356-b7dd-388137e330e4")
-		)
-		(pin "3"
-			(uuid "d2bdf675-40c0-4c6e-9a6e-6b5cb972f53a")
-		)
-		(pin "2"
-			(uuid "2424f369-6bc5-4c17-84e6-b350d2890ca1")
-		)
-		(instances
-			(project "Faikout"
-				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 65.405 90)
 		(unit 1)
@@ -10252,7 +10020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.965 102.235 90)
+		(at 209.169 93.345 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10260,10 +10028,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9cd469e6-635b-4a10-b279-c95c16d499fd")
 		(property "Reference" "#PWR016"
-			(at 234.315 102.235 0)
+			(at 202.819 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10274,18 +10041,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 102.235 90)
+			(at 207.772 93.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 227.965 102.235 0)
+			(at 209.169 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +10062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.965 102.235 0)
+			(at 209.169 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10307,7 +10073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.965 102.235 0)
+			(at 209.169 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13209,6 +12975,98 @@
 			(project "Faikout"
 				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Faikin:Conn_01x06_Programming")
+		(at 221.869 90.805 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe31a9f-be4d-4a1e-8093-60bd0c318201")
+		(property "Reference" "J4"
+			(at 221.869 79.0405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader_2.54mm"
+			(at 221.869 81.4648 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 221.615 99.949 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 225.679 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "PinHeader_2.54mm"
+			(at 221.869 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "daec7625-2b19-4818-8060-19213e29f992")
+		)
+		(pin "6"
+			(uuid "cfef3d20-a78b-4b8f-b701-5c3ca2794882")
+		)
+		(pin "1"
+			(uuid "d2b99327-9d3e-4289-87a6-4db88f371665")
+		)
+		(pin "4"
+			(uuid "ee8e3b18-be08-49d7-9563-7de1d3b0e14b")
+		)
+		(pin "3"
+			(uuid "ae2dffc5-7a63-4743-880f-2f8cc6401289")
+		)
+		(pin "2"
+			(uuid "0ea87a28-93d0-44a1-b1f4-cf4f2ea94a6d")
+		)
+		(instances
+			(project "Faikout"
+				(path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+					(reference "J4")
 					(unit 1)
 				)
 			)
